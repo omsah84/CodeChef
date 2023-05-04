@@ -7,12 +7,11 @@ public class Squats {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		
 		int t = Integer.parseInt(bf.readLine());
-		int mul = 1;
 		
 		for(int i = 1; i<=t; i++){
 		    int a = Integer.parseInt(bf.readLine());
 		    
-		    mul *= a;
+		    int mul = 15*a;
 		    
 		    System.out.println(mul);
 		}
